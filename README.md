@@ -11,6 +11,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [👒 Modular Arithmetic](#modular-arithmetic)
 - [🧮 Greatest Common Divisor](#greatest-common-divisor)
 - [🧠 Prime Numbers](#prime-numbers)
+- [🎲 Problems](#problems)
 
 
 ---
@@ -145,5 +146,8 @@ for (long long i = 2; i * i <= r; ++i) {
 
 ```
 
+---
 
+# 🎲Problems
 
+- [GCD2](http://spoj.com/problems/GCD2/)
