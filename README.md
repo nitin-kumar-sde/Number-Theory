@@ -11,7 +11,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [👒 Modular Arithmetic](#modular-arithmetic)
 - [🧮 Greatest Common Divisor](#greatest-common-divisor)
 - [🧠 Prime Numbers](#prime-numbers)
-- [🎲 Problems](#problems)
+- [💎 Practise Problems](#practise-problems)
 
 
 ---
@@ -148,6 +148,10 @@ for (long long i = 2; i * i <= r; ++i) {
 
 ---
 
-# 🎲Problems
+# 💎 Practise Problems
 
 - [GCD2](http://spoj.com/problems/GCD2/)
+- [Cube Free Numbers](https://www.spoj.com/problems/CUBEFR)
+- [NFACTOR - N-Factorful](https://www.spoj.com/problems/NFACTOR)
+- [Card Game Again](https://codeforces.com/problemset/problem/818/E)
+  
