@@ -199,6 +199,28 @@ Matrix Exponentiation is a powerful technique to compute linear recurrence relat
 
 ---
 
+# 🔐 Fermat's Little Theorem
+
+Fermat's little theorem states that if p is a prime number, then for any integer a, the number a ^ p - a is an integer multiple of p. 
+
+```
+a^p ≡ a (mod p)
+a^p-1 ≡ 1 (mod p)
+a^p-2 ≡ a^-1 (mod p)
+
+```
+
+## 💡 Applications
+- Efficient modular inverse computation - (a^-1 wrt p = a^p-2%p)
+
+
+## ✅ Conditions
+- \( p \) must be **prime**
+- \( a \) must be **not divisible** by \( p \)
+
+
+---
+
 # 💎Practise Problems
 
 - [GCD2](http://spoj.com/problems/GCD2/)
