@@ -13,6 +13,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [🧠 Prime Numbers](#prime-numbers)
 - [✨ Modular Exponentiation](#modular-exponentiation)
 - [🎵 Matrix Exponentiation](#matrix-exponentiation)
+- [🔐Fermat's Little Theorem](#fermats-little-theorem)
 - [💎 Practise Problems](#practise-problems)
 
 
@@ -199,7 +200,7 @@ Matrix Exponentiation is a powerful technique to compute linear recurrence relat
 
 ---
 
-# 🔐 Fermat's Little Theorem
+# 🔐Fermat's Little Theorem
 
 Fermat's little theorem states that if p is a prime number, then for any integer a, the number a ^ p - a is an integer multiple of p. 
 
