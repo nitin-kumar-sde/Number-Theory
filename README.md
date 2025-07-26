@@ -12,6 +12,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [🧮 Greatest Common Divisor](#greatest-common-divisor)
 - [🧠 Prime Numbers](#prime-numbers)
 - [✨ Modular Exponentiation](#modular-exponentiation)
+- [🎵 Matrix Exponentiation](#matrix-exponentiation)
 - [💎 Practise Problems](#practise-problems)
 
 
@@ -183,7 +184,20 @@ long long modExpIterative(long long a, long long b, long long m) {
 
 > 🧠 Time Complexity - O(log b) for both recursive and iterative versions
 
+
 --- 
+
+# 🎵 Matrix Exponentiation
+
+> Matrix Exponentiation is a powerful technique to compute linear recurrence relations in **O(log n)** time using matrices, commonly used to compute nth Fibonacci number and similar sequences.
+
+> ⏱️ Time Complexity - O(log n) for computing nth term in recurrence.
+
+[Read More](https://codeforces.com/blog/entry/67776)
+
+🔗 **[Check complete code here](./Number-Theory/matrix_exponentiation_fibonacci.cpp)**
+
+---
 
 # 💎Practise Problems
 
