@@ -187,15 +187,15 @@ long long modExpIterative(long long a, long long b, long long m) {
 
 --- 
 
-# 🎵 Matrix Exponentiation
+# 🎵Matrix Exponentiation
 
-> Matrix Exponentiation is a powerful technique to compute linear recurrence relations in **O(log n)** time using matrices, commonly used to compute nth Fibonacci number and similar sequences.
+Matrix Exponentiation is a powerful technique to compute linear recurrence relations in **O(log n)** time using matrices, commonly used to compute nth Fibonacci number and similar sequences.
 
 > ⏱️ Time Complexity - O(log n) for computing nth term in recurrence.
 
 [Read More](https://codeforces.com/blog/entry/67776)
 
-🔗 **[Check complete code here](./Number-Theory/matrix_exponentiation_fibonacci.cpp)**
+[Check complete code here](./Number-Theory/MatrixExponentiation.cpp)
 
 ---
 
