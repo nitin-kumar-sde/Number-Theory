@@ -14,6 +14,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [✨ Modular Exponentiation](#modular-exponentiation)
 - [🎵 Matrix Exponentiation](#matrix-exponentiation)
 - [🔐Fermat's Little Theorem](#fermats-little-theorem)
+- [🐚 Wilson's Theorem](#wilsons-theorem)
 - [💎 Practise Problems](#practise-problems)
 
 
@@ -218,6 +219,24 @@ a^p-2 ≡ a^-1 (mod p)
 ## ✅ Conditions
 - \( p \) must be **prime**
 - \( a \) must be **not divisible** by \( p \)
+
+---
+
+# 🐚Wilson's Theorem
+
+Wilson's Theorem provides a unique primality test based on factorials and modular arithmetic.
+
+## 📌 Statement
+
+A positive integer \( p > 1 \) is **prime** if and only if:
+
+```
+(p - 1)! ≡ -1 (mod p)
+```
+
+## ✅ Conditions
+- \( p \) must be **prime**
+- \( (p-1)! \) means factorial from 1 to \( p-1 \)
 
 
 ---
