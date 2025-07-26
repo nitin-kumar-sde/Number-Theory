@@ -14,23 +14,26 @@ using namespace std;
 #define endl '\n'
 #define N 1000005
 #define MOD 1000000007
-ll modularExponentiation(ll a, ll b) {
+
+// recursive modular exponentiation
+ll modularExponentiation(ll a, ll b, ll c) {
     if(b==0) return 1;
 
-    ll ans = modularExponentiation((a*a)%MOD, b/2);
+    ll ans = modularExponentiation((a*a)%c, b/2, c);
     if(b%2) 
-    ans = (ans * a%MOD)%MOD;
+    ans = (ans * a%c)%c;
     
     return ans;
 }
 
-ll modularExponentiationIterative(ll a, ll b) {
+// iterative modular exponentiation
+ll modularExponentiationIterative(ll a, ll b, ll c) {
     ll result = 1;
     while(b>0) {
         if(b%2)
-        result  = (result * (a %MOD)) %MOD;
+        result  = (result * (a %c)) %c;
         b/=2;
-        a = (a*a)%MOD;
+        a = (a*a)%c;
     }
     return result;
 }
@@ -46,7 +49,7 @@ int main() {
 
     ll a, b; cin >> a >> b;
 
-    ll ans = modularExponentiationIterative(a, b);
+    ll ans = modularExponentiationIterative(a, b, MOD);
 
     cout << ans << endl;
 
