@@ -195,7 +195,7 @@ Matrix Exponentiation is a powerful technique to compute linear recurrence relat
 
 [Read More](https://codeforces.com/blog/entry/67776)
 
-[Check complete code here](./Number-Theory/MatrixExponentiation.cpp)
+[Check complete code here](./Number%20Theory/MatrixExponentiation.cpp)
 
 ---
 
