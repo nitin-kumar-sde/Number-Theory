@@ -11,6 +11,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [👒 Modular Arithmetic](#modular-arithmetic)
 - [🧮 Greatest Common Divisor](#greatest-common-divisor)
 - [🧠 Prime Numbers](#prime-numbers)
+- [✨ Modular Exponentiation](#modular-exponentiation)
 - [💎 Practise Problems](#practise-problems)
 
 
@@ -148,7 +149,43 @@ for (long long i = 2; i * i <= r; ++i) {
 
 ---
 
-# 💎 Practise Problems
+# ✨Modular Exponentiation
+
+> Modular Exponentiation is used to efficiently compute powers under a modulus, i.e., compute \( a^b mod m \) without overflow and in logarithmic time.
+
+## 🎻 Recursive Version
+
+```
+long long modExpRecursive(long long a, long long b, long long m) {
+    if (b == 0) return 1;
+    long long half = modExpRecursive(a, b / 2, m);
+    long long result = (half * half) % m;
+    if (b % 2) result = (result * a) % m;
+    return result;
+}
+```
+
+## 🔒 Iterative Version
+
+```
+long long modExpIterative(long long a, long long b, long long m) {
+    long long result = 1;
+    a %= m;
+    while (b > 0) {
+        if (b & 1)
+            result = (result * a) % m;
+        a = (a * a) % m;
+        b >>= 1;
+    }
+    return result;
+}
+```
+
+> 🧠 Time Complexity - O(log b) for both recursive and iterative versions
+
+--- 
+
+# 💎Practise Problems
 
 - [GCD2](http://spoj.com/problems/GCD2/)
 - [Cube Free Numbers](https://www.spoj.com/problems/CUBEFR)
