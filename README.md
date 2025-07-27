@@ -272,4 +272,5 @@ where p₁, p₂, ..., pk are the distinct prime factors of n
 - [Card Game Again](https://codeforces.com/problemset/problem/818/E)
 - [BORING - Boring Factorials](https://www.spoj.com/problems/BORING)
 - [Daulat Ram's income](https://www.hackerearth.com/problem/algorithm/recurrence/)
+- [PRINT - Prime Intervals](https://www.spoj.com/problems/PRINT)
   
