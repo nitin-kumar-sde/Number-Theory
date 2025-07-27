@@ -151,6 +151,8 @@ for (long long i = 2; i * i <= r; ++i) {
 
 ```
 
+[Check complete code here](./Number%20Theory/SegmentedSieve.cpp)
+
 ---
 
 # ✨Modular Exponentiation
