@@ -274,4 +274,6 @@ where p₁, p₂, ..., pk are the distinct prime factors of n
 - [Daulat Ram's income](https://www.hackerearth.com/problem/algorithm/recurrence/)
 - [PRINT - Prime Intervals](https://www.spoj.com/problems/PRINT)
 - [GCDEX - GCD Extreme](https://www.spoj.com/problems/GCDEX)
+- [Monk And ETF](https://www.hackerearth.com/practice/math/number-theory/totient-function/practice-problems/algorithm/monk-and-etf)
+- [Devasena](https://www.codechef.com/PRACTICE/problems/AMR15B)
   
