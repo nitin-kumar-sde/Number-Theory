@@ -15,6 +15,7 @@ Whether you're a student, a CP enthusiast, or preparing for coding interviews, t
 - [🎵 Matrix Exponentiation](#matrix-exponentiation)
 - [🔐Fermat's Little Theorem](#fermats-little-theorem)
 - [🐚 Wilson's Theorem](#wilsons-theorem)
+- [🎨Euler's Totient Function](#eulers-totient-function)
 - [💎 Practise Problems](#practise-problems)
 
 
@@ -238,6 +239,26 @@ A positive integer \( p > 1 \) is **prime** if and only if:
 - \( p \) must be **prime**
 - \( (p-1)! \) means factorial from 1 to \( p-1 \)
 
+---
+
+# 🎨Euler's Totient Function
+
+The Euler's Totient Function, denoted by φ(n), counts the number of integers from 1 to n that are coprime to n.
+
+> φ(n) = count of integers k such that 1 ≤ k ≤ n and gcd(k, n) = 1
+
+## 🧠 Key Properties
+
+- If n is a prime number → φ(n) = n - 1
+  
+- For any integer n with prime factorization
+
+```
+φ(n) = n × (1 - 1/p₁) × (1 - 1/p₂) × ... × (1 - 1/pk)
+where p₁, p₂, ..., pk are the distinct prime factors of n
+```
+
+[Check complete code here](./Number%20Theory/EulerTotient.cpp)
 
 ---
 
@@ -247,4 +268,6 @@ A positive integer \( p > 1 \) is **prime** if and only if:
 - [Cube Free Numbers](https://www.spoj.com/problems/CUBEFR)
 - [NFACTOR - N-Factorful](https://www.spoj.com/problems/NFACTOR)
 - [Card Game Again](https://codeforces.com/problemset/problem/818/E)
+- [BORING - Boring Factorials](https://www.spoj.com/problems/BORING)
+- [Daulat Ram's income](https://www.hackerearth.com/problem/algorithm/recurrence/)
   
